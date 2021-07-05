@@ -18,6 +18,7 @@ class App extends Component {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/users/admin">Users</Link></li>
+          <li><Link to="/strict-acess">Strict Access</Link></li>
         </ul>
         <Switch>
           <Route path="/users/:id/" render={ (props) => <Users {...props} greetingsMessage="Good Morning" /> } />
